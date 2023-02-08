@@ -1,4 +1,5 @@
 
+
 let add_list = document.getElementById("learn-more");
 const desk = document.getElementById("desktop");
 
@@ -51,16 +52,14 @@ const desk = document.getElementById("desktop");
     let crown = document.createElement("span");
     form.appendChild(crown);
     crown.className = "king"
-     crown.innerHTML = `
-     <img src="images/crown.png">`
+     crown.innerHTML = `<img src="images/crown.png">`
 
 
     //Ajout d'un Titre au tableau
     let title = document.createElement("div");
     form.appendChild(title);
     title.className = "titleList"
-    title.innerHTML = `
-    <input value="" placeholder="Title" class="inputTitle">`
+    title.innerHTML = `<input value="" placeholder="Title" class="inputTitle">`
 
     //Ajout de la division qui acceuillera les Categories/taches
     let task = document.createElement("div");
